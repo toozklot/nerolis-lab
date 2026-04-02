@@ -4,7 +4,7 @@ title: Guides overview
 
 # Pokémon Sleep guides
 
-Welcome to Neroli's Lab guides. These pages explain game mechanics and how we model them in the app.
+Welcome to Neroli's Lab guides. This wiki explains game mechanics for both new and experienced players. It also contains subjective information from the Route 01 team in the [Pokémon sleep discord server](https://discord.gg/pokemonsleep). Any pages subjective information is clearly marked using the following element:
 
 <GuideDemoBanner />
 
