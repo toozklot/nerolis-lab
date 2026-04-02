@@ -23,6 +23,10 @@
     {
       "name": "bot",
       "path": "bot"
+    },
+    {
+      "name": "guides",
+      "path": "guides"
     }
   ],
   "settings": {
