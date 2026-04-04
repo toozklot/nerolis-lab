@@ -1,18 +1,33 @@
 ---
-title: Guides overview
+title: Welcome
+order: 0
 ---
 
-# Pokémon Sleep guides
+# Welcome to Neroli's Guides
 
 Welcome to Neroli's Lab guides. This wiki explains game mechanics for both new and experienced players. It also contains subjective information from the Route 01 team in the [Pokémon sleep discord server](https://discord.gg/pokemonsleep). Any pages subjective information is clearly marked using the following element:
 
-<GuideDemoBanner />
+## Credit
+
+This guide is a community effort made possible thanks to the efforts of its members. All content is either orignally written or has the explicit permission of the original writer(s) to be used. Beneath every page is a footnote denoting that page's contributors. For a complete list of contributors, see [Credits](./credits)
+
+## Subjective content
+
+Any page that goes beyond describing mechanics is begins with the following element:
+
+<SubjectiveInfoBanner />
+
+## Using the wiki
+
+On the left of the screen, all sections and pages are displayed. The right side shows a breakdown of the content on the current page. Both can be interacted with to navigate the wiki.
+
+<!-- At the top is the global search bar. Type in keywords to locate specific, sections, pages, or words within a page. Use ctrl+k to quicksearch.-->
 
 ## Getting started
 
-- [Sleep basics](./sleep-basics/) — sleep sessions and scoring (sample page)
+We reccomend that relatively new trainers start with the [Sleep basics](./sleep-basics/) section.
 
-## Format preview
+<!-- Markdown reference for contributors
 
 Examples for contributors: headings, prose, tables, quotes, code, and VitePress blocks. Use this page as a visual reference when writing or reviewing guides—compare spacing, weights, and colors against the main app where it matters. The sections below walk through each heading level and common markdown patterns so you can spot regressions quickly.
 
@@ -157,4 +172,4 @@ Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
 
 Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada pretium. Pellentesque auctor neque nec urna.
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada pretium. Pellentesque auctor neque nec urna. -->
