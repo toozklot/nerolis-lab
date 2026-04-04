@@ -23,6 +23,10 @@
     {
       "name": "bot",
       "path": "bot"
+    },
+    {
+      "name": "guides",
+      "path": "guides"
     }
   ],
   "settings": {
@@ -42,6 +46,7 @@
       "frontend": true,
       "bot": true,
       "docs": true,
+      "guides": true,
       ".vscode": true,
       "dev-dist": true,
       "*.tsbuildinfo": true,
