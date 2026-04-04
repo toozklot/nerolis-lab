@@ -53,13 +53,13 @@ export const SITE_NAV_ITEMS: readonly SiteNavItem[] = [
     spa: true,
     dividerBefore: true
   },
-  // {
-  //   id: 'guides',
-  //   label: 'Guides',
-  //   path: '/guides/',
-  //   icon: 'mdi-book-open-variant-outline',
-  //   spa: false
-  // },
+  {
+    id: 'guides',
+    label: 'Guides',
+    path: '/guides/',
+    icon: 'mdi-book-open-variant-outline',
+    spa: false
+  },
   {
     id: 'admin',
     label: 'Admin',
