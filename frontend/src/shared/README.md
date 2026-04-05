@@ -10,3 +10,7 @@ Vue SFCs here may be imported by **both** the main SPA (`frontend`) and the Vite
 - Prefer **scoped styles** and design tokens (`var(--color-*)`, etc.) so guides and app themes both look correct.
 
 Adding a component here does not register it globally; each app registers what it needs (e.g. `guides/.vitepress/theme/index.ts`).
+
+## `tsconfig.json` in this folder
+
+Vite resolves the **nearest** `tsconfig.json` when compiling `.vue` files. CI often runs `npm install` only under `guides/`, so `frontend/node_modules` (and thus `@tsconfig/node20` from the root `frontend/tsconfig.json`) may be missing. This folder’s **standalone** `tsconfig.json` avoids `extends` to packages that only exist after a full frontend install, so `vitepress build` in guides still works.
