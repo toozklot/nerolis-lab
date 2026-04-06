@@ -8,10 +8,16 @@ All names in alphabetical order.
 
 ## Authors of guides in the [Pokémon Sleep Discord](https://discord.gg/pokemonsleep)
 
-- Person a, Person b etc.
+- Cyars, Snackson5, mawilewave, Moose, Tindo,
 
 ## Wiki writers and editors
 
+- Tooz
+
+## Neroli's Lab devs
+
+- [- PLACEHOLDER TEXT -]
+
 ## Creators of infograpics
 
-## Miscillanious
+-
