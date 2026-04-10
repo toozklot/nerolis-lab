@@ -146,7 +146,15 @@ export default defineConfig(({ command }) => ({
     host: true,
     port: 8001,
     proxy: {
-      '/api': 'http://localhost:3000'
+      '/api': 'http://localhost:3000',
+      // local dev: VitePress guides run on port 5173
+      // use http://localhost:8001 as the single origin so / and /guides/* share one host
+      '/guides': {
+        target: 'http://localhost:5173',
+        changeOrigin: true,
+        ws: true,
+        secure: false
+      }
     }
   },
   resolve: {

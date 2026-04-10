@@ -1,3 +1,43 @@
+## [2.41.2](https://github.com/nerolis-lab/nerolis-lab/compare/v2.41.1...v2.41.2) (2026-04-10)
+
+## [2.41.1](https://github.com/nerolis-lab/nerolis-lab/compare/v2.41.0...v2.41.1) (2026-04-10)
+
+# [2.41.0](https://github.com/nerolis-lab/nerolis-lab/compare/v2.40.2...v2.41.0) (2026-04-10)
+
+
+### Features
+
+* **dao:** sneaky snacking code ([e48c171](https://github.com/nerolis-lab/nerolis-lab/commit/e48c1716a3160cd78248a6316b147ddde1e81684))
+* **team-simulator:** sneaky snacking code ([6957552](https://github.com/nerolis-lab/nerolis-lab/commit/6957552502bdb58a3b6cb41cfd0aadf38542aae5))
+
+## [2.40.2](https://github.com/nerolis-lab/nerolis-lab/compare/v2.40.1...v2.40.2) (2026-04-10)
+
+
+### Bug Fixes
+
+* **metronome:** update list of blocked skills ([bae08cf](https://github.com/nerolis-lab/nerolis-lab/commit/bae08cf2afb4415d3675dd63ab5b83c62fec928b))
+
+## [2.40.1](https://github.com/nerolis-lab/nerolis-lab/compare/v2.40.0...v2.40.1) (2026-04-09)
+
+
+### Bug Fixes
+
+* docker compose compatiblity with SELinux ([69d36d0](https://github.com/nerolis-lab/nerolis-lab/commit/69d36d077ce453cf360b6c16ffa008b3a6748169))
+
+# [2.40.0](https://github.com/nerolis-lab/nerolis-lab/compare/v2.39.6...v2.40.0) (2026-04-09)
+
+
+### Features
+
+* add vitepress guides site, theme, and docs ([4226e15](https://github.com/nerolis-lab/nerolis-lab/commit/4226e15b5b38699270a751b8f664bdf9f28e67ab))
+
+## [2.39.6](https://github.com/nerolis-lab/nerolis-lab/compare/v2.39.5...v2.39.6) (2026-04-09)
+
+
+### Bug Fixes
+
+* sync removed starting ingredients selection ([1ed064b](https://github.com/nerolis-lab/nerolis-lab/commit/1ed064b7658d0a66c548dd43d4a06a416343b6f7))
+
 ## [2.39.5](https://github.com/nerolis-lab/nerolis-lab/compare/v2.39.4...v2.39.5) (2026-04-08)
 
 ## [2.39.4](https://github.com/nerolis-lab/nerolis-lab/compare/v2.39.3...v2.39.4) (2026-04-08)

@@ -66,9 +66,6 @@ describe('IngredientSelection', () => {
   })
 
   it('resets ingredients when clear is clicked', async () => {
-    wrapper.vm.selectedIngredients = [...mockIngredients]
-    await wrapper.vm.$nextTick()
-
     const button = wrapper.find('button')
     await button.trigger('click')
 
@@ -92,6 +89,15 @@ describe('IngredientSelection', () => {
     await wrapper.vm.$nextTick()
 
     expect(wrapper.vm.selectedIngredients).toEqual(mockIngredients)
+  })
+
+  it('derives selected ingredients from the parent prop', async () => {
+    const updatedIngredients = mockIngredients.slice(0, 2)
+
+    await wrapper.setProps({ preSelectedIngredients: updatedIngredients })
+
+    expect(wrapper.vm.selectedIngredients).toEqual(updatedIngredients)
+    expect(wrapper.text()).toContain('Includes:')
   })
 
   it('emits updateIngredients when add is clicked', async () => {
